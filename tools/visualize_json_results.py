@@ -17,7 +17,7 @@ from adet.utils.visualizer import Visualizer
 
 from adet.data.datasets import register_soba_instances
 register_soba_instances("soba_cast_shadow_train_full", {}, "../../dataset/SOBA/annotations/SOBA_train_relation.json", "../../dataset/SOBA/SOBA/")
-register_soba_instances("soba_cast_shadow_val_full",{},"../../dataset/SOBA/annotations/SOBA_val.json","../../dataset/SOBA/SOBA/")
+register_soba_instances("soba_cast_shadow_val_full",{},"../../dataset/SOBA/annotations/SOBA_val_v2.json","../../dataset/SOBA/SOBA/")
 
 
 def create_instances(ins_predictions, ass_predictions,image_size):
